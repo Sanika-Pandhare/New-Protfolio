@@ -111,28 +111,51 @@ export const projects = [
     icons: [FaReact, FaCloud],
     demo: "#",
     code: "#",
+  },
+  {
+    title: "Chat App",
+    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    image: projectImg5,
+    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
+    icons: [FaReact, FaNodeJs, FaDatabase ],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "AI Image Generator",
+    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
+    image: projectImg6,
+    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
+    icons: [FaRobot, FaReact, FaCloud],
+    demo: "#",
+    code: "#",
   }
-  
-  
 ];
 
 
 export const workData = [
   {
-    role: "React Developer (Intern)",
-    company: "Munimji's IT Solutions Pvt. Ltd.",
-    duration: "June 2025 - July 2025",
+    role: "Senior Frontend Developer",
+    company: "TechCorp Inc.",
+    duration: "2020 - Present",
     description:
-      "Worked on React.js development tasks, actively contributed to assigned projects, and reported to the Project Manager during the internship.",
-    color: "blue"
+      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
+    color: "purple"
   },
   {
-    role: "Web Development Intern",
-    company: "YHills",
-    duration: "Oct 2024 - Dec 2024",
+    role: "Web Developer",
+    company: "Digital Solutions LLC",
+    duration: "2018 - 2020",
     description:
-      "Completed a Web Development project, building practical skills in frontend technologies under the E-Cell IT Indore program.",
-    color: "green"
+      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+    color: "pink"
+  },
+  {
+    role: "Junior Developer",
+    company: "StartUp Ventures",
+    duration: "2016 - 2018",
+    description:
+      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
+    color: "blue"
   }
-  
 ];
