@@ -63,13 +63,13 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'Javascript']
+    tags: ['React', 'Tailwind CSS', 'HTML', 'CSS', 'Javascript','Angular']
   },
   {
     title: 'Backend Development',
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'PHP']
+    tags: ['Node.js', 'Express', 'PHP','Spring Boot']
   },
   {
     title: 'Database Management',
